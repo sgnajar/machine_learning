@@ -8,7 +8,7 @@ rm(list=ls())
 graphics.off()
 
 
-setwd("/Users/snajar/Downloads/final_project") 
+setwd("D:\\Documents\\GitHub\\machine_learning") 
 myData <- "ST000003_peaks_table.csv"
   
 data_in <- read.csv(file=myData, header=TRUE)
